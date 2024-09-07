@@ -1,0 +1,8 @@
+Arrays
+Arrays are used to store multiple items in a single variable.
+Array is a linear data meaning all elements are arranged sequentially one after another.
+Array elements are stored in contiguous memory locations meaning, meaning even in memory locations all the array elements are stored one after the other, this makes it easy to predict at which memory location any array element is stored.
+Thus we can directly access or update any array element in O(1)
+O(1) time.
+Since all the elements are stored in a contiguous manner, inserting or deleting any element means we have to shift all the elements after the desired element, making it an O(N)
+O(N) operation.
